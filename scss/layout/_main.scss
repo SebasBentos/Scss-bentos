@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    gap: 5px;
+    display: grid;
+    grid-template-columns: 40% 60% ;
+    grid-template-rows:  40vh 40vh  ;
+}
+
+main
+{
+
+
+        h3{
+           @extend .fa;
+
+    
+    
+            .grid2{
+           display: grid;
+           grid-template-columns: 100%;
+            grid-template-rows: 100%;
+
+               h2{
+                 margin: 20px 0px 20px 0px;
+                 text-align: center;
+                 font-size: 50px;
+                }
+            } 
+        }
+   
+}
+
+
+div{
+    margin-top: 10px;
+
+    .fotos
+  {
+ @include medidas; }
+
+  
+         .fa
+         {   
+          margin: 0px 0px 15px 0px;
+          text-align: center;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: rgba(0, 0, 0, 0.6);
+          font-size: 30px;
+
+        }
+
+        .ff{
+            @include texto;
+        }
+
+    
+
+}
+
+
+
+.pp{
+    padding: 20px;
+    text-align: center;
+    color: #f1f1f1;
+    
+}
+ 

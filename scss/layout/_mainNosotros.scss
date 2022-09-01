@@ -1,0 +1,9 @@
+.img-fluid{
+    margin-top: 10px;
+}
+
+main{
+    p{
+        @include texto;
+    }
+}

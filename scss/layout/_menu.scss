@@ -1,0 +1,36 @@
+$colorbody:rgba(0, 0, 0, 0.582);
+$blanco: white;
+
+
+body {
+
+    background-color: $colorbody ;
+}
+h1{
+    color: white;
+    background-color: $colorbody;
+    padding: 15px;
+}
+ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0px 20px 0px;
+
+    li{
+        display: inline-block;
+        a {
+            text: {
+              decoration: none;
+              transform: uppercase;
+              align: center;
+            }
+            font: {
+                family: sans-serif;
+            }
+            color: $colorbody;
+            padding: 20px;
+            background-color: $blanco ;
+        }
+    }
+}
